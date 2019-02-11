@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // Server Setup
-const port = process.env.PORT || 3090;
+const PORT = process.env.PORT || 5000;
 //const server = http.createServer(app);
-app.listen(port);
-console.log("Server listening on:", port);
+app.listen(PORT);
+console.log("Server listening on:", PORT);
